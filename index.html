@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exo JS</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>exos JS 10/06/21</h1>
+    </header>
+    <main>
+
+        <div id="exos">
+            <div class="exo">
+                <h2>Changements de couleurs</h2>
+                <h3>intro</h3>
+                <p>Les changements de couleurs d'une zone de texte font appel
+                    à onmouseover, onmouseout, onclick et ondblclick, ainsi qu'aux méthodes de contrôle du
+                    style par JavaScript appliquées à l'objet courant indiqué par this.</p>
+                <h3>Exercice</h3>
+                <p>
+                    Créer une page web comportant une phrase, dont un groupe de mots, de couleur noire au
+                    chargement, doit prendre la couleur :
+                <ol>
+
+                    <li>rouge au passage de la souris ;</li>
+                    <li>citron vert (lime) en réponse à un click ;</li>
+                    <li>bleu marine (navy) en réponse à un double click</li>
+                </ol>
+                </p>
+                <div class="resultat">
+                    <h3>result</h3>
+                    <div id="resultColor">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad velit neque a repellat?
+                        Repudiandae, minima est corrupti totam harum dolorum debitis eligendi nisi unde reiciendis,
+                        eveniet, laudantium accusantium optio sapiente.
+                    </div>
+                </div>
+            </div>
+
+            <div class="exo">
+                <h2>Changements de position</h2>
+                <h3>intro</h3>
+                <p>Il est possible, en utilisant l'attribut style, de modifier un certain nombre de détails de
+                    l'élément sélectionné, notamment sa position, mais également son encombrement, son
+                    alignement...</p>
+                <h3>Exercice</h3>
+                <p>
+                    Créer une page web constituée d'un court paragraphe (quelques lignes), d'une largeur de
+                    500 pixels. En cliquant sur ce paragraphe, il doit s'afficher grosso-modo au centre de la page,
+                    avec un mot par ligne. Le double click doit permettre de revenir au format initial (aligné à
+                    gauche, occupant une largeur de 500 pixels).
+                </p>
+                <div class="resultat">
+                    <h3>result</h3>
+                    <div id="resultPos">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad velit neque a repellat?
+                            Repudiandae, minima est corrupti totam harum dolorum debitis eligendi nisi unde reiciendis,
+                            eveniet, laudantium accusantium optio sapiente.</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="exo">
+                <h2>Changements de police</h2>
+                <h3>intro</h3>
+                <p>Il est possible, en utilisant l'attribut style, de modifier un certain nombre de détails de
+                    l'élément sélectionné, notamment sa position, mais également son encombrement, son
+                    alignement...</p>
+                <h3>Exercice</h3>
+                <p>
+                    Reproduire l'effet précédent :
+                <ol>
+                    <li>police Verdana</li>
+                    <li> 2. un trait en travers des lettres (line-through) ;
+                    </li>
+                    <li>une multiplication par 2 de la hauteur des lignes ;</li>
+                    <li>une multiplication par 1,5 de la taille des caractères par rapport à la taille par
+                        défaut ;</li>
+                    <li>une capitalisation des premières lettres des mots.</li>
+
+                </ol>
+
+                </p>
+                <div class="resultat">
+                    <h3>result</h3>
+                    <div id="resultPol">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad velit neque a repellat?
+                            Repudiandae, minima est corrupti totam harum dolorum debitis eligendi nisi unde reiciendis,
+                            eveniet, laudantium accusantium optio sapiente.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="exo">
+                <h2>tag</h2>
+                <h3>intro</h3>
+                <p>Il est également possible de changer le contenu d'un tag. On peut réaliser un rollover, qui
+                    consiste à changer une image au passage de la souris, ce qui sert parfois lorsqu'il s'agit de
+                    matérialiser l'activation possible d'un bouton par exemple. Mais il est également
+                    envisageable de modifier le contenu de l'élément lui-même, comme par exemple le texte
+                    inséré entre deux tags <b> et </b>. On utilise pour ce faire la propriété this.innerHTML.</p>
+                <h3>Exercice</h3>
+                <p>
+                    1. Trouver deux images si possible de tailles différentes sur votre machine ; les insérer
+                    dans une page web élémentaire en rollover. Tenir compte des effets de hauteur et de
+                    largeur de telle manière qu'aucune image ne soit déformée.
+                    2. À l'aide de la propriété this.innerHTML que vous expérimenterez si vous ne la
+                    connaissez pas, reproduire l'exemple suivant :
+                    Un petit texte avec un texte en italique au milieu
+
+                </p>
+                <div class="resultat">
+                    <h3>result</h3>
+                    <div id="resultPol">
+                        <p>
+                            <img id="img1" src="tor_a01_paquet_action_web_v1-page-001.webp" alt="">
+                        </p>
+                        <p id="parPetitText">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque obcaecati vero, quis
+                            laboriosam nobis provident ducimus dolorem in aperiam nesciunt aut sunt sed ipsam explicabo
+                            quia impedit? Dolorum, ipsum eveniet!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
